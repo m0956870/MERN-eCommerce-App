@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+/* ALERT DIV */
+#alert {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 6vh;
+  width: 100%;
+  z-index: 100;
+}
+
+#alert .success {
+  background: #edf7ed;
+  color: #64b968;
+  border: 1px solid #64b968;
+  width: 100%;
+  height: 100%;
+  padding: 0 1rem;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+#alert .error {
+  background: #fdeded;
+  color: #f0625f;
+  border: 1px solid #f0625f;
+  width: 100%;
+  height: 100%;
+  padding: 0 1rem;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
